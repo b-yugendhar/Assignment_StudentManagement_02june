@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#f0f0f0;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding:20px;
+            text-align:center;
+            background-color:#d6c9c9;
+        }
+        .student-card{
+            background-color:white;
+            width:300px;
+            margin:20px auto;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(17, 17, 17, 0.1);
+        }
+        .profile-image{
+            width:100px;
+            height:100px;
+            border-radius:50%;
+            margin-bottom:15px;
+            border:2px solid #6682a7;
+        }
+        .student-info h2{
+            color:#6682a7;
+            margin-bottom:10px;
+
+        }
+       @media (min-width:769px){
+            .student-card{
+                display:flex;
+                align-items:center;
+                text-align:left;
+            }
+            .profile-image{
+                margin-right:20px;
+            }
+        }
+  
+        @media (max-width:768px){
+            .student-card{
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+            }
+            .profile-image{
+                margin:0 auto 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Card</h1>
+    <div class="student-card">
+        <img src="https://i.pinimg.com/736x/0e/1b/49/0e1b4984c22ff810051677b8c7a29e7d.jpg" alt="Profile Image" class="profile-image">
+        <div class="student-info">
+        <h2>B Yugendhar</h2>
+        <p>Student ID: 23B81A05K2</p>
+        <p>Course: Computer Science and Engineering</p>
+        <p>Email: b.yugendhar@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>

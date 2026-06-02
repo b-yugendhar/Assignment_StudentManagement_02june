@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            background-color:#f0f0f0;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding:20px;
+            text-align:center;
+            background-color:#d6c9c9;
+        }
+        .nav-bar{
+            Background-color:#6682a7;
+            padding:10px;
+            margin-top:20px;
+            display:flex;
+            justify-content:center;
+        }
+        .nav-bar a{
+            color:white;
+            text-decoration:none;
+            margin:10px 18px;
+            font-size:18px;
+            border:1px solid white;
+            padding:5px 10px;
+        }
+    .content{
+        background-color:white;
+        width:30%;
+        padding:20px;
+        margin-top:20px;
+        border-radius:10px;
+        box-shadow:0 0 10px rgba(17, 17, 17, 0.1);
+    }
+    p{
+        margin:10px 0;
+        color:#333;
+        text-align:left;
+    }
+    @media (min-width:769px){
+        .nav-bar{
+            flex-direction:row;
+        }
+        .nav-bar a{
+            margin:10px 5px;
+        }
+        .content{
+            width:30%;
+        }
+    }
+     @media (max-width:768px){
+         .nav-bar{
+            flex-direction:column;
+        }
+        .nav-bar a{
+            margin:10px 5px;
+        }
+        .content{
+            width:90%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <HEADER>
+    <h1>Student Management Dashboard</h1>
+    <div class="nav-bar">
+        <a href="#">Home</a>
+        <a href="#">Students</a>
+        <a href="#">Courses</a>
+        <a href="#">Grades</a>
+        <a href="#">Settings</a>
+        </div>
+    </HEADER>
+    <div class="content">
+        <h3>announcements</h3>
+        <p>3-2 results arrived click here to check the results</p>
+        <p>1-2 mid term exam scheduled for next week</p>
+        <p>2-1 project submission deadline extended to 30th june</p>
+        <p>3-1 seminar on emerging technologies in computer science on 25th june</p>
+        <p>3-2 results arrived click here to check the results</p>
+        <p>1-2 mid term exam scheduled for next week</p>
+        <p>2-1 project submission deadline extended to 30th june</p>
+        <p>3-1 seminar on emerging technologies in computer science on 25th june</p>
+        <p>3-2 results arrived click here to check the results</p>
+        <p>1-2 mid term exam scheduled for next week</p>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
